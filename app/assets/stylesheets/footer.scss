@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css?family=Dosis&display=swap');
+@import "bootstrap";
+
+
 html {
   height: 100%;
 }
@@ -13,9 +17,17 @@ body {
 }
 
 #footer {
-  position: fixed;
+  position: relative;
   width: 100%;
-  min-height: 100px;
-  background-color: rgba(36, 32, 33, 0.9);
+  min-height: 50px;
+  background-color: rgba(0, 0, 0, 0.89);
   color: white;
+  font-family: 'Dosis', sans-serif;
+  padding: 10px 0px;
+  margin-top: 30px;
+}
+
+#footer a {
+  color: white;
+  font-weight: 100;
 }
