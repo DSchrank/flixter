@@ -4,11 +4,12 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 ruby '2.5.5'
 
 
-
+gem 'carrierwave'
 gem "mini_magick"
+gem 'carrierwave-aws'
 gem "fog-aws"
 gem "figaro"
-gem 'carrierwave', '>= 2.0.0.rc', '< 3.0'
+
 gem 'jquery-rails'
 gem 'simple_form'
 gem 'devise'
