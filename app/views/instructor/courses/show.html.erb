@@ -4,10 +4,15 @@
   <br />
   <%= link_to 'Preview As Student...', course_path(current_course), class: 'btn btn-warning float-right' %>
   <br class="clr" />
+  <br />
+  <br />
+    <%= image_tag current_course.image_url.to_s, class: 'img-fluid' %>
+    <br />
+    <br />
   <div class="text-center">
     <%= link_to 'Add a new section...', new_instructor_course_section_path(current_course), class: 'btn btn-primary btn-lg' %>
   </div>
-
+<br />
   <ul>
     <% current_course.sections.each do |section| %>
       <li>
