@@ -5,6 +5,7 @@ ruby '2.5.5'
 
 
 
+gem 'ranked-model'
 gem 'stripe'
 gem 'carrierwave'
 gem "mini_magick"
