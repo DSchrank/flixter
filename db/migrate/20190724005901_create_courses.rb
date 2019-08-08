@@ -11,4 +11,3 @@ end
     end
     add_index :courses, :user_id
   end
-end
